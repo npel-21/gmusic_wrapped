@@ -5,7 +5,7 @@ import json
 import requests
 import time
 
-expect = "2018"
+expect = datetime.datetime.now().year
 verbose = False
 duration = False
 lastFmToken = ""
